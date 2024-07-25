@@ -1,0 +1,84 @@
+/* VOTRE CODE CSS DOIT ETRE ECRIT DANS CE FICHIER */
+
+body {
+    background-image: url("/images/bg-spider.png");
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav a:hover {
+    text-decoration: underline 3px;
+}
+
+nav a {
+    text-decoration: none;
+    /*font-family: 'Roboto', sans-serif;
+    font-weight: 700;*/
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    /*color: white;*/
+}
+
+nav a, h1, footer p {
+    color: white;
+}
+
+q {
+    /*font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+    font-style: italic;*/
+    font-size: 1.3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-transform: capitalize;
+}
+
+h1 {
+    /*font-family: 'Roboto', sans-serif; 
+    font-weight: 700;*/
+    font-size: 128px;
+    /*font-style: italic;*/
+    text-transform: uppercase;
+    /*color: white;*/
+    line-height: 1;
+    text-shadow: 4px 4px 0px darkred, -3px -3px 0px darkblue;
+}
+
+q, h1 {
+    font-style: italic;
+}
+
+h1:hover {
+    text-shadow: 8px 8px 0px darkred, -6px -6px 0px darkblue;
+}
+
+.text-the {
+    font-family: 'Freehand', cursive;
+    text-transform: lowercase;
+    font-size: 64px;
+}
+
+.text-amazing {
+    font-size: 80px;
+} 
+
+.tagline {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-weight: 400;
+    font-size: 1.2em;
+    word-spacing: 3px;
+}
+
+
+footer p {
+    /*font-family: 'Roboto', sans-serif; 
+    font-weight: 700;*/
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    /*color: white;*/
+}

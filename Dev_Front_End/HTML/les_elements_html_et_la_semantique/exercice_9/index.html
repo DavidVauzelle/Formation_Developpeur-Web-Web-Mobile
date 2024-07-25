@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les formulaires</title>
+</head>
+<body>
+    <h1>Questionnaire Personnel</h1>
+    <form action="/submit-form" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="name">Nom* :</label>
+            <input type="text" id="name" name="text" required>    
+        </div>
+        <br>
+        <div>
+            <label for="first_name">Prénom* :</label>
+            <input type="text" id="first_name" name="text" required>   
+        </div>
+        <br>
+        <div>
+            <label for="password">Mot de passe* :</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email* :</label>
+            <input type="email" id="email" name="email" required> 
+        </div>
+        <br>
+        <div>
+            <label for="tel">Téléphone :</label>
+            <input type="tel" id="tel" name="tel">   
+        </div>
+        <br>
+        <div>
+            <label for="date">Date de naissance* :</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <br>
+        <div>
+            <label for="color">Couleur préférée :</label>
+            <input type="color" id="color" name="color"> 
+        </div>
+        <br>
+        <div>
+            <label for="country_choice">Pays préféré :</label>
+            <input list="favorite_country" id="country_choice" name="country_choice" />
+            <datalist id="favorite_country">
+                <option value="France"></option>
+                <option value="Espagne"></option>
+                <option value="Italie"></option>
+                <option value="États-Unis"></option>
+                <option value="Canada"></option>
+                <option value="Japon"></option>
+                <option value="Australie"></option>
+                <option value="Allemagne"></option>
+                <option value="Royaume-Uni"></option>
+                <option value="Brésil"></option>
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <label for="statut">Statut :</label> 
+            <select name="statut">
+                <option value="option1">Étudiant</option>
+                <option value="option2">Professionnel</option>
+                <option value="option2">Autre</option>
+            </select>    
+        </div>
+        <br>
+        <div>
+            <label for="children">Enfants à charge :</label>
+            <input type="number" id="children" name="children" min="0" value="0">
+        </div>
+        <br>
+        <div>
+            <label for="website">Site web personnel :</label>
+            <input type="url" id="website" name="website" />
+        </div>
+        <br>
+        <div>
+            <label for="enquete">Niveau de satisfaction (0 à 5) : </label>
+            <input
+                type="range"
+                name="price"
+                id="price"
+                min="0"
+                max="5"
+                step="1"
+                value="0" />
+            <output class="enquete-output" for="enquete"></output>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Genre</legend>    
+                <input type="radio" id="man" name="genre" checked >
+                <label for="man">Homme</label>
+
+                <input type="radio" id="woomen" name="genre">
+                <label for="woomen">Femme</label>
+
+                <input type="radio" id="other" name="genre">
+                <label for="other">Autre</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="condition" name="condition">
+            <label for="condition">Je suis passionné(e) par les formulaires</label>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Compétences</legend>
+                <input type="checkbox" id="skills1" name="skills">
+                <label for="skills1">HTML</label>
+
+                <input type="checkbox" id="skills2" name="skills">
+                <label for="skills2">CSS</label>
+
+                <input type="checkbox" id="skills3" name="skills">
+                <label for="skills3">JavaScript</label>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <label for="file">CV :</label>
+            <input type="file" id="file" name="file" />
+        </div>
+        <br>
+        <div>
+            <label for="message">Commentaire :</label><br>
+            <textarea 
+                id="message" 
+                name="message"
+                placeholder="votre message ici">
+            </textarea>
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Réinitialiser">
+            <input type="submit" value="Soumettre">
+        </div>
+    </form>
+</body>
+</html>

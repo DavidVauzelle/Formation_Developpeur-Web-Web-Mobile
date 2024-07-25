@@ -1,0 +1,6 @@
+Google Font :
+
+Roboto: 400, 500, 700
+Prompt: 900
+
+box-sizing: border-box;

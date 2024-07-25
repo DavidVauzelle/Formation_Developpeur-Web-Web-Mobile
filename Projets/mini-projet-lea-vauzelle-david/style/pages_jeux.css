@@ -1,0 +1,127 @@
+/* body {
+    width: 1920px;
+    height: 100vh;
+    width: 100vh;
+} */
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav a, nav p {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.section-cyberpunk-1 {
+    background-image: url(/images/pages_jeux/cyberpunk_2077/cyberpunk_background.jpg);
+    height: 1080px;
+    width: 100%;
+    display: flex;
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 25px;
+    font-size: 40px;
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, li {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.section-cyberpunk-2 {
+    display: flex;
+    padding: 100px 0 100px;
+    background-color: #000000;
+}
+
+.section-cyberpunk-2 div {
+    flex: 1;
+    width: 50%;
+}
+
+.titre-section-cyberpunk-2, .texte-section-cyberpunk-2 {
+    color: #ffffff;    
+    margin: 0;
+    padding: 25px;
+}
+
+.titre-section-cyberpunk-2 {
+    font-size: 35px;
+}
+
+.texte-section-cyberpunk-2 {
+    font-size: 25px;
+    /* white-space: normal; */
+    word-spacing: 1px;
+}
+
+.night-city, .nouveautes {
+    align-content: start;
+    text-align: center;
+}
+
+.video-1, .video-2 {
+    padding: 25px;
+    align-content: center;
+}
+
+.galerie-cyberpunk-3 {
+    background-color: #fcee0a;
+}
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 25px 100px;
+}
+
+.galerie-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.galerie-images div {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+}   
+
+img:hover {
+    transform: scale(1.25);
+}

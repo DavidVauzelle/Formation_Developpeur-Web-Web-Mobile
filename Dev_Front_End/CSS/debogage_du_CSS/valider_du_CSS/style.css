@@ -1,0 +1,31 @@
+.container {
+    background-color: lightblue;
+}
+
+.button {
+    color: blue;
+}
+
+#header {
+    font-size: 18px;
+}
+
+.footer {
+    padding: 10px;
+}
+
+.nav {
+    margin: 5px;
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+/* Ceci est un commentaire */
+
+.subtitle {
+    color: purple;
+    font-size: 16px;
+}

@@ -1,0 +1,35 @@
+.photo-1, .photo-2, .photo-3, .photo-4 {
+    outline: 5px solid blue;
+    margin: 25px;;
+}
+
+.photo-1 {
+    height: 500px;
+    width: 500px;
+}
+
+.photo-2 {
+    height: 250px;
+    width: 250px;
+}
+
+.photo-3 {
+    height: 350px;
+    width: 450px;
+}
+
+.photo-4 {
+    height: 400px;
+    width: 200px;
+}
+
+.photo-1 img {
+    /*height: 100%;*/
+    width: 100%;
+}
+
+.photo-4 img {
+    /*height: 100%;*/
+    width: 100%;
+    object-fit: cover;
+}

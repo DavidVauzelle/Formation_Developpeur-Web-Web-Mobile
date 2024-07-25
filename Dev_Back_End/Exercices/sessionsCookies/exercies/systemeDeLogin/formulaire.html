@@ -1,0 +1,36 @@
+<!-- Page qui affiche le formulaire HTML -->
+<!-- Champs : nom, email, telephone, message -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de login</title> 
+    <?php include('formulaire.php'); ?>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulaire-style">
+        <h1>Formulaire de contact</h1>
+        <!-- <form action="formulaireConfirmation.php" method="get"> -->
+        <form action="formulaire.php" method="post">
+            <div>
+                <label for="name">Prénom :</label>
+                <input type="texte" id="name" name="user_name" required> 
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required> 
+            </div>
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required> 
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </div>    
+</body>
+</html>

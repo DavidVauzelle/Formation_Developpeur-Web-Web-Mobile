@@ -1,0 +1,27 @@
+<!-- Page qui affiche le formulaire HTML -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Préférences Utilisateurs</title> 
+    <?php include('preferencesUtilisateurs.php'); ?>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulaire-style">
+        <!-- <form action="preferencesUtilisateurs.php" method="POST"> -->
+        <form action="preferencesUtilisateurs.php" method="post">
+            <div>
+                <label for="color">Thème de couleur :</label>
+                <input type="color" id="color" name="color" required> 
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </div>    
+</body>
+</html>

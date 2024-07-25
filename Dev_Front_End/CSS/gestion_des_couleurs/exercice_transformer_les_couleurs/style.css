@@ -1,0 +1,49 @@
+/* Le rouge dans différents formats de couleur */
+
+p {
+    color: red;
+    color: #ff0000;
+    color: rgb(255, 0, 0);
+    color: hsl(0, 100%, 50%);
+    color: hwb(0 0% 0%);
+}
+
+p {
+    color: white;
+    color: #ffffff;
+    color: rgb(255, 255, 255);
+    color: hsl(0, 0%, 100%);
+    color: hwb(0 100% 0%);
+}
+
+p {
+    color: black;
+    color: #000000;
+    color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 0%);
+    color: hwb(0 0% 100%);
+}
+
+p {
+    color: brown;
+    color: #a52a2a;
+    color: rgb(165, 42, 42);
+    color: hsl(0, 59%, 41%);
+    color: hwb(0 16% 35%);
+}
+
+p {
+    color: blue;
+    color: #0000ff;
+    color: rgb(0, 0, 255);
+    color: hsl(240, 100%, 50%);
+    color: hwb(240 0% 0%);
+}
+
+p {
+    color: yellow;
+    color: #ffff00;
+    color: rgb(255, 255, 0);
+    color: hsl(60, 100%, 50%);
+    color: hwb(60 0% 0%);
+}

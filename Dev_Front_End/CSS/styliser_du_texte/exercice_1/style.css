@@ -1,0 +1,20 @@
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: blue;
+    text-shadow: 0 0 10px red;
+}
+
+h1:hover {
+    color: aqua;
+}
+
+p {
+    font-family: 'Gamja Flower', sans-serif;
+    font-size: 25px;
+    color: palevioletred;
+}
+
+body {
+    text-align: center;
+}
